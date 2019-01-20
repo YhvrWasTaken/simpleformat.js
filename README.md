@@ -14,3 +14,10 @@ format(9.82e+4, 'sci')
 format(15438932589032, 'eng')
 //OUTPUT: "15.44e12"
 ```
+An entire list of format types:
+```
+'sci', //Scientific
+'eng', //Engineering
+'nor', //Normal. eg: "1.00 Quadrillion"
+'let2' //2 Letters
+```

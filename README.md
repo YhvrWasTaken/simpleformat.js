@@ -14,11 +14,12 @@ format(9.82e+4, 'sci')
 format(15438932589032, 'eng')
 //OUTPUT: "15.44e12"
 ```
-An entire list of format types:
-```
-'sci', //Scientific
-'eng', //Engineering
-'nor', //Normal. eg: "1.00 Quadrillion"
-'let2', //2 Letters
-'let' //1 or 2 Letters
-```
+An entire list of format types: <br>
+
+| Name          | Technical Name| What it does   |
+|:-------------:|:-------------:|:--------------:|
+| Scientific    | `sci`         | 1.00e4         |
+| Engineering   | `eng`         | 10.00e3        |
+| Normal        | `nor`         | 10.00 Thousand |
+| 2 Letters     | `let2`        | 1.00ab         |
+| Letters       | `let`         | 1.00b          |

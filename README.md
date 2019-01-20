@@ -19,5 +19,6 @@ An entire list of format types:
 'sci', //Scientific
 'eng', //Engineering
 'nor', //Normal. eg: "1.00 Quadrillion"
-'let2' //2 Letters
+'let2', //2 Letters
+'let' //1 or 2 Letters
 ```

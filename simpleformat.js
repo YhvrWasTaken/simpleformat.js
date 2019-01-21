@@ -15,7 +15,7 @@ var simpleFormatData = {
   mantissaMult: 1,
   let2: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
   nor: ['Thousand', 'Million', 'Billion', 'Trillion', 'Quadrillion', 'Quintillion', 'Sextillion', 'Septillion', 'Octillion', 'Nonillion', 'Decillion', 'Undecillion', 'Duodecillion', 'Tredecillion', 'Quattrodecillion', 'Quindecillion', 'Sexdecillion', 'Septendecillion', 'Octodecillion', 'Novemdecillion', 'Vigintillion', 'Unvigintillion', 'Duovigintillion', 'Tresvigintillion', 'Quattuorvigintillion', 'Quinquavigintillion', 'Sesvigintillion', 'Septemvigintillion', 'Octovigintillion', 'Novemvigintillion', 'Trigintillion', 'Untrigintillion', 'Duotrigintillion', 'Trestrigintillion', 'Quattuortrigintillion', 'Quinquatrigintillion', 'Sestrigintillion', 'Septentrigintillion', 'Octotrigintillion', 'Noventrigintillion', 'Quadragintillion', 'Unquadragintillion', 'Duoquadragintillion', 'Trequadragintillion', 'Quattuorquadragintillion', 'Quinquadragintillion', 'Sexquadragintillion', 'Septenquadragintillion', 'Octoquadragintillion', 'Novemquadragintillion', 'Quinquagintillion', 'Unquinquagintillion', 'Duoquinquagintillion', 'Trequinquagintillion', 'Quattuorquinquagintillion', 'Quinquinquagintillion', 'Sexquinquagintillion', 'Septenquinquagintillion', 'Octoquinquagintillion','Novemquinquagintillion','Sexagintillion','Unsexagintillion','Duosexagintillion','tresexagintillion','Quattuorsexagintillion','Quinsexagintillion','Sexsexagintillion','Septensexagintillion','Octosexagintillion','Novemsexagintillion','Septuagintillion','Unseptuagintillion','Duoseptuagintillion','Treseptuagintillion','Quattuorseptuagintillion','Quinseptuagintillion','Sexseptuagintillion','Septenseptuagintillion', 'Octoseptuagintillion', 'Novemseptuagintillion', 'Octogintillion', 'Unoctogintillion', 'Duooctogintillion', 'Treoctogintillion', 'Quattuoroctogintillion', 'Quinoctogintillion', 'Sexoctogintillion', 'Septenoctogintillion', 'Octooctogintillion', 'Novemoctogintillion', 'Nonagintillion', 'Unnonagintillion', 'Duononagintillion', 'Trenonagintillion', 'Quattuornonagintillion', 'Quinnonagintillion', 'Sexnonagintillion', 'Septennonagintillion', 'Octononagintillion', 'Novemnonagintillion', 'Centillion']
-}
+};
 
 function format(number, type) {
 	simpleFormatData.exponent = Math.floor(Math.log10(number));
@@ -39,7 +39,7 @@ function format(number, type) {
       simpleFormatData.letter1 -= 26;
       simpleFormatData.letter2 += 1;
     }
-    return(simpleFormatData.mantissa.toFixed(2) + simpleFormatData.let2[simpleFormatData.letter2] + simpleFormatData.let2[simpleFormatData.letter1])
+    return(simpleFormatData.mantissa.toFixed(2) + simpleFormatData.let2[simpleFormatData.letter2] + simpleFormatData.let2[simpleFormatData.letter1]);
   } else if (type == 'let') {
     simpleFormatData.letter1 = simpleFormatData.exponent - 3;
     simpleFormatData.letter2 = -1;
@@ -56,5 +56,5 @@ function getEngMantissa() {
   simpleFormatData.mantissaMult = 1;
   if (simpleFormatData.engRemainder == 1) simpleFormatData.mantissaMult = 10;
   if (simpleFormatData.engRemainder == 2) simpleFormatData.mantissaMult = 100;
-  return(simpleFormatData.mantissa * simpleFormatData.mantissaMult)
+  return(simpleFormatData.mantissa * simpleFormatData.mantissaMult);
 }

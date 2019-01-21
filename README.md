@@ -16,7 +16,7 @@ format(15438932589032, 'eng')
 ```
 An entire list of format types: <br>
 
-| Name          | Technical Name| What it does   |
+| Name          | Input         | Output         |
 |:-------------:|:-------------:|:--------------:|
 | Scientific    | `sci`         | 1.00e4         |
 | Engineering   | `eng`         | 10.00e3        |

@@ -14,7 +14,20 @@ format(9.82e+4, 'sci')
 format(15438932589032, 'eng')
 //OUTPUT: "15.44e12"
 ```
-An entire list of format types: <br>
+
+You can add it to your website with this: <br>
+
+```
+<script type='text/javascript' src='https://raw.githubusercontent.com/YhvrWasTaken/simpleformat.js/master/simpleformat.min.js'></script>
+```
+
+Or this un-minified version: <br>
+
+```
+<script type='text/javascript' src='https://raw.githubusercontent.com/YhvrWasTaken/simpleformat.js/master/simpleformat.js'></script>
+```
+
+And here is an entire list of format types: <br>
 
 | Name          | Input         | Output         |
 |:-------------:|:-------------:|:--------------:|

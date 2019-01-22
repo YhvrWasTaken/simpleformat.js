@@ -1,8 +1,8 @@
 # simpleformat.js
 A simple number formatter. <br>
-simpleformat.js has one function- `format()`. It has 2 inputs: `number` and `type`.
-`number` Is where you enter your variable.
-`type` Is the type of formatting you want.
+simpleformat.js has one function- `format()`. It has 2 inputs: `number` and `type`. <br>
+`number` Is where you enter your variable. <br>
+`type` Is the type of formatting you want. <br>
 Some examples:
 ```
 format(1.45e51, 'nor')

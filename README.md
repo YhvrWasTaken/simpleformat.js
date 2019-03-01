@@ -1,4 +1,4 @@
-# simpleformat.js
+![simpleformat.js](/pic.png)
 
 A simple number formatter.
 

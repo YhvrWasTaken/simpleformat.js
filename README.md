@@ -1,5 +1,7 @@
 ![simpleformat.js](/pic.png)
 
+**THIS REPOSITORY IS NOW ARCHIVED. FIND OUT WHY AT THE BOTTOM.**
+
 A simple number formatter.
 
 simpleformat.js has three functions- `format.normal()`, `format.mixed()`, and `format.create()`.
@@ -112,3 +114,8 @@ Or you could download it.
 | Letters       | `let`         | 1.00b          |
 
 Don't forget, You can create your own types!
+
+## Why did you archive this?
+
+ 1. Complete Failure.
+ 2. I want to make this again, but better.
